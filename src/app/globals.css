@@ -24,3 +24,14 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.botao {
+  @apply flex justify-center items-center gap-2;
+  @apply px-6 py-2.5 rounded-md;
+  @apply text-white;
+}
+
+.input {
+  @apply px-4 py-2.5 rounded-md;
+  @apply border bg-zinc-900 border-zinc-700;
+}

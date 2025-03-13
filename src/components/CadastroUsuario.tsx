@@ -53,7 +53,7 @@ const CadastroUsuario = () => {
             (
                 <div className='flex flex-col p-4 gap-5'>
                     <button 
-                    onClick={() => editarUsuario({})}
+                    onClick={() => editarUsuario({id: 0, nome: '', email: '', senha: ''})}
                     className='self-end botao bg-green-600 hover:bg-green-700'>
                         Novo Usuario
                     </button>
